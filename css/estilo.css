@@ -1,0 +1,29 @@
+body{
+    margin: auto; /*Centralizar o componente da pagina*/
+    display: table;
+}
+#container{
+    width: 800px; /*Largura do container*/
+    border: 1px solid #000; /*Borda de 1px solida e preto*/
+    padding: 20px; /*Margem interna do componente*/
+    margin: 10px; /*Margem externa do componente*/
+    float: left; /*Posicionar o proximo item a esquerda do container*/
+}
+#links{
+    width: 800px;
+    float: left;
+}
+#links a{
+    text-decoration: none; /*Retirar o underline*/
+    color: #333; /*Cor do texto, cinza*/
+    padding: 20px; 
+}
+#links a:hover{ /*Evento de passar o mouse sobre o link*/
+    background-color: #333; /*Cor de fundo */
+    color: #FFF;
+    text-decoration: underline;
+}
+#conteudo{
+    width: 800px;
+    float: left;
+}
